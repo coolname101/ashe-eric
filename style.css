@@ -1,0 +1,38 @@
+.pic {
+    height: 400px;
+    position: relative;
+    left: 415px;
+}
+
+.box {
+    height: 250px;
+    width: 100%;
+    background-color: #FB9480;
+    position: absolute;
+    top: 378px;
+}
+
+h1 {
+    font-family: "Bodoni Moda";
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 200px;
+}
+
+p {
+    font-family: Incosolata,monospace;
+    color: #354248;
+    font-size: xx-large;
+    position: absolute;
+    left: 200px;
+    top: 85px;
+}
+
+.Ashe {
+    position: absolute;
+    left: 1100px;
+    top: 195px;
+    font-size: 20px;
+}
