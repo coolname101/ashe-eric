@@ -65,3 +65,31 @@ p {
         font-size: 6px;
     }
 }
+
+@media (max-width: 375px) {
+    .pic {
+        height: 95px;
+        left: 101px;
+    }
+
+    .box {
+        height: 80px;
+        top: 100px;
+    }
+
+    h1 {
+        font-size: 12px;
+        left: 55px;
+    }
+
+    p {
+        font-size: x-small;
+        left: 55px;
+        top: 20px;
+    }
+
+    .Ashe {
+        left: 285px;
+        top: 55px;
+    }
+}
