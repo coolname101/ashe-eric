@@ -36,3 +36,32 @@ p {
     top: 195px;
     font-size: 20px;
 }
+
+@media (max-width: 600px) {
+    .pic {
+        height: 125px;
+        left: 129px;
+    }
+
+    .box {
+        height: 90px;
+        top: 118px;
+    }
+
+    h1 {
+        font-size: 15px;
+        left: 62px;
+    }
+
+    p {
+        font-size: small;
+        left: 62px;
+        top: 26px;
+    }
+
+    .Ashe {
+        left: 344px;
+        top: 61px;
+        font-size: 6px;
+    }
+}
