@@ -1,0 +1,63 @@
+/* Common styles (from above) */
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .img.pic {
+    height: 400px;
+    display: block;
+  }
+  
+  .container.box {
+    background-color: #FB9480;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 395px;
+  }
+  
+  .container.box h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 55px;
+    color: white;
+    margin-left: 30px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    grid-column: 1 / 2;
+  }
+  
+  .container.box p:not(.Ashe) {
+    font-family: "Incosolata", "monospace";
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 42px;
+    grid-column: 1 / 2;
+    color: #354248
+  }
+  
+  .container.box p.Ashe {
+    grid-column: 2 / 3;
+    font-family: "Incosolata", "monospace";
+    font-size: medium;
+    justify-self: end;
+    color: #354248;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .container.box .items{
+    grid-column: 1 / 3;
+  }
