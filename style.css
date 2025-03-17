@@ -44,6 +44,7 @@ body {
     grid-column: 2 / 3;
     font-family: "Incosolata", "monospace";
     justify-self: end;
+    font-size: 0.8rem;
     margin-right: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
